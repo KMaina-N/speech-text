@@ -9,8 +9,8 @@ This Python script uses the `speech_recognition` and `pyttsx3` libraries to conv
 
 You can install these dependencies using pip:
 
-```bash
-pip install speech_recognition pyttsx3
+
+```pip install speech_recognition pyttsx3```
 
 How it works
 The script initializes a speech recognition engine and continuously listens for user input through the microphone. It then uses Google's speech recognition to convert the audio input to text.
@@ -19,3 +19,4 @@ The speak function is used to convert text to speech. It initializes a text-to-s
 
 Usage
 Run the script in a Python environment. It will start listening for your voice input and convert it to text. To stop the script, interrupt the process (Ctrl+C in most terminals).
+"# speech-text" 
