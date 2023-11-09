@@ -12,6 +12,10 @@ You can install these dependencies using pip:
 
 ```pip install speech_recognition pyttsx3```
 
+or alternatively using requirements.txt
+
+```pip install -r requirements.txt```
+
 How it works
 The script initializes a speech recognition engine and continuously listens for user input through the microphone. It then uses Google's speech recognition to convert the audio input to text.
 
